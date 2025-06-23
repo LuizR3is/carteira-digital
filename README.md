@@ -1,6 +1,7 @@
-# carteira_digital_flutter
-Aplicativo para armazenamento de documentos pessoais desenvolvido em Flutter para o projeto semestral da disciplina de Desenvolvimento Mobile com o professor Rodrigo Rocha. 
+# Carteira Digital com Flutter
 
-OBSERVAÇÕES:
-- O aplicativo possui três entidades: Usuário, Documento e Categoria. Porém, não foi possível implementar corretamente a funcionalidade de filtrar os documentos de acordo com a categoria. O filtro por categorias foi mantido em tela pra demonstrar a ideia, porém a exibição da lista que aparece no app é sem filtros, mostrando todos os documentos, independente da categoria de cada um. Essa funcionalidade não era obrigatória e fica para uma implementação futura.
-- Em relação aos testes automatizados, não foi possível desenvolver dentro do prazo estabelecido.
+Projeto desenvolvido para a disciplina de Desenvolvimento de Aplicações Móveis em 2024. A ideia consiste num sistema que permite que o usuário cadastre os seus documentos num único lugar para facilitar o acesso.
+
+O aplicativo é web e foi desenvolvido com Flutter e Riverpod. A persistência dos dados foi feita com SQLite. 
+
+Uma potencial melhoria evidente seria a adição de categorias, para que fosse possível organizar e filtrar melhor dos documentos de acordo com o tipo. Outro ponto seria a refatoração do design para tornar o aplicativo mais agradável ao usuário.
